@@ -13,7 +13,8 @@ end
 end
 
 def get_japanese_emoticon(path, emoticons)
-  # code goes here
+  load_library(path).each do |key, value|
+
 end
 
 def get_english_meaning(path, emoticons) #takes in two arguments: the YAML file path and the emoticons
