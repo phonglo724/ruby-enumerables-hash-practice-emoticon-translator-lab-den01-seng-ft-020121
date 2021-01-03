@@ -18,6 +18,7 @@ def get_japanese_emoticon(path, emoticons)
     return value[:japanese]
 end
 end
+  return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(path, emoticons) #takes in two arguments: the YAML file path and the emoticons
