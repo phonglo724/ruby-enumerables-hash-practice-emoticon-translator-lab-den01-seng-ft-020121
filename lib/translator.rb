@@ -19,7 +19,7 @@ end
 def get_english_meaning(path, emoticons) #takes in two arguments: the YAML file path and the emoticons
   load_library(path).each do |key, value| #calls our method load_library and gives it the argument of the file path. We want this to return the English meaning of the Japanese emoticons. We'll use our .each method to iterate through a key and a value. We'll end our 'do' so we don't forget.
   if value[:japanese] == emoticons #return the English meaning of the Japanese emoticons. We'll end our 'if' so we don't forget.
-    
+    emoticons = key
 end
   binding.pry
 end
