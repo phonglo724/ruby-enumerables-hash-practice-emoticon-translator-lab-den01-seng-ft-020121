@@ -22,5 +22,5 @@ def get_english_meaning(path, emoticons) #takes in two arguments: the YAML file 
     return key
 end
 end
-  return "Sorry, that emoticon was not found"
+  return "Sorry, that emoticon was not found" #returns this message if the argument above is not a known emoticon
 end
