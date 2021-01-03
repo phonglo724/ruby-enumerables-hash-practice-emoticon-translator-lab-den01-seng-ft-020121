@@ -21,6 +21,5 @@ def get_english_meaning(path, emoticons) #takes in two arguments: the YAML file 
   if value[:japanese] == emoticons #The next 3 lines, we want to return the English meaning of the Japanese emoticons. We'll end our 'if' so we don't forget.
     emoticons = key
 end
-  binding.pry
 end
 end
