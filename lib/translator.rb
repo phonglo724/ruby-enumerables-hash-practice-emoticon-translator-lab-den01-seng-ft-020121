@@ -14,7 +14,7 @@ end
 
 def get_japanese_emoticon(path, emoticons)
   load_library(path)
-binding.pry
+
 end
 
 def get_english_meaning(path, emoticons) #takes in two arguments: the YAML file path and the emoticons
