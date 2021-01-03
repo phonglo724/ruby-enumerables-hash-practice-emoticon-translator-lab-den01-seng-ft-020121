@@ -13,7 +13,7 @@ end
 end
 
 def get_japanese_emoticon(path, emoticons)
-  load_library(path)
+  load_library(path).each do |key, value|
   
 end
 
